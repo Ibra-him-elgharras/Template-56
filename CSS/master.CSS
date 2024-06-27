@@ -8,16 +8,14 @@ body{
     background-image: url(/images/thumb-1920-31835.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 .container{
     height: 100vh;
     background-color: rgb(0, 0, 0, 0.39);
-    margin: 30px 80px auto;
+    margin: 30px 90px auto;
 }
 .container nav{
     height: 60px;
-    background-color: yellow;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,6 +35,25 @@ body{
 .container nav ul li{
     display: inline-block;
 }
-.container nav ul li a{
+nav ul li a,
+nav .login a{
     text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+nav ul li a:hover,
+nav .login a:hover{
+    color: red;
+}
+nav button{
+    color: #fff;
+    background-color: black;
+    padding: 5px 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 1px solid red;
 }
